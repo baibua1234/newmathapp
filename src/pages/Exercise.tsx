@@ -7,7 +7,6 @@ import cat from '../assets/images/three.png'
 import backf from '../assets/images/backf.png'
 import nextf from '../assets/images/nextf.png'
 import book from '../assets/images/book.png'
-
 import {Link } from "react-router-dom"
 import { add } from 'ionicons/icons';
 const Exercise: React.FC = () => {
@@ -75,9 +74,9 @@ const Exercise: React.FC = () => {
                 <IonCardHeader>
                     <IonCardTitle >
                         <IonButton href='Exercisetwo' fill='clear' color="dark">
-                        <img  className='btn-back' src={backf} alt="" height={"80%"} width={"80%"}/>
-                        <img  className='btn-next' src={nextf} alt="" height={"80%"} width={"80%"}/>
-                        </IonButton>                                          
+                        <img  className='btn-back' src={backf} alt="" height={"80%"} width={"80%"}/>                   
+                        <img  className='btn-next' src={nextf} alt="" height={"80%"} width={"80%"}/>                       
+                        </IonButton>                           
                     </IonCardTitle> 
                 </IonCardHeader>   
             </IonCard>

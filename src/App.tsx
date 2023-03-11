@@ -15,6 +15,8 @@ import Number5 from './pages/Number5';
 import NumberPM from './pages/NumberPM';
 import NumberPM2 from './pages/NumberPM2';
 import NumberPM3 from './pages/NumberPM3';
+import NumberPM4 from './pages/NumberPM4';
+import NumberPM5 from './pages/NumberPM5';
 
 import Gameimage from './pages/Gameimage';
 import Gameopenimage from './pages/Gameopenimage';
@@ -120,6 +122,16 @@ const App: React.FC = () => (
         <Route exact path='/numberpm3'>
           <NumberPM3 />
           <Redirect to="/numberpm3" />
+        </Route>
+
+        <Route exact path='/numberpm4'>
+          <NumberPM4 />
+          <Redirect to="/numberpm4" />
+        </Route>
+
+        <Route exact path='/numberpm5'>
+          <NumberPM5 />
+          <Redirect to="/numberpm5" />
         </Route>
 
         <Route exact path='/gameimage'>

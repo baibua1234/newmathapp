@@ -23,9 +23,9 @@ const Number4: React.FC = () => {
         <IonPage>
              <IonCard style={{backgroundColor: '#DDBD69'}}>
             <div>
-                <div>
+                {/* <div>
                     <img className='img-backarrow' src={backarrow} alt="" />       
-                </div>
+                </div> */}
 
                 <div className='ion-text-center'>
                     <p className='quiz'>4.รูปภาพมีมังคุดทั้งหมดกี่ลูก</p>
@@ -44,10 +44,10 @@ const Number4: React.FC = () => {
                     <img className='img-answer' onClick={selectChoice} id="7" src={seven} alt="" />       
                 </div>
                 <div className='bg-quiz'>
-                    <img className='img-answer' onClick={selectChoice} id="5" src={five} alt="" />       
+                    <img className='img-answer' onClick={selectChoice} id="6" src={six} alt="" />       
                 </div>
                 <div className='bg-quiz'>
-                    <img className='img-answer' onClick={selectChoice} id="6" src={six} alt="" />       
+                    <img className='img-answer' onClick={selectChoice} id="5" src={five} alt="" />       
                 </div>
 
                 </div>
@@ -57,7 +57,7 @@ const Number4: React.FC = () => {
             <IonCard  className='card-footer' style={{backgroundColor: '#DDBD69'}}>
                 <IonCardHeader>
                     <IonCardTitle>
-                    <IonButton href='Number2' fill='clear' color="dark">
+                    <IonButton href='Number5' fill='clear' color="dark">
                         <img  className='btn-back' src={back} alt="" height={"80%"} width={"80%"}/>
                         <img  className='btn-next' src={next} alt="" height={"80%"} width={"80%"}/>
                     </IonButton>                                          

@@ -11,7 +11,7 @@ const Matchnumber: React.FC = () => {
                     </div>
 
                     <div className='ion-text-center'>
-                        <p className='quiz'>1.มีรูปภาพเต่าทั้งหมดกี่ตัว</p>
+                        <p className='quiz'>1.จับคู่จำนวนที่เท่ากัน</p>
                     </div>
 
                     <div className='ion-text-center'>
@@ -23,12 +23,6 @@ const Matchnumber: React.FC = () => {
                     </div>
 
                     <div className='wrap'>
-
-                    </div>
-                    <div className='bg-quiz'>
-
-                    </div>
-                    <div className='bg-quiz'>
 
                     </div>
 

@@ -62,7 +62,7 @@ const Exercisetwo: React.FC = () => {
             <IonCard  className='card-footer' style={{backgroundColor: '#DDBD69'}}>
                 <IonCardHeader>
                     <IonCardTitle >
-                        <IonButton href='Game' fill='clear' color="dark">
+                        <IonButton href='Exercise' fill='clear' color="dark">
                         <img  className='btn-back' src={backf} alt="" height={"50%"} width={"50%"}/>
                         <img  className='btn-next' src={nextf} alt="" height={"50%"} width={"50%"}/>
                         </IonButton>                                          
